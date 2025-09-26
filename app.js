@@ -13,7 +13,7 @@ console.log(amigos);
 
 //crear una función que reciba un nombre y lo agregue al array
 
-function agregarAmigo(amigos) {
+function agregarAmigo() {
 
 if(ingresarNombre.value.trim() === "") {
 
@@ -129,4 +129,5 @@ listadeAmigos.forEach(function(amigo) {
     li.textContent = amigo;
     milistaDeAmigos.appendChild(li);
 });
+
 */
